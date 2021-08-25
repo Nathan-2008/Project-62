@@ -1,0 +1,61 @@
+.menu{
+    
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+    z-index: 10;
+}
+.menu a{
+    z-index: 1;
+    color:cornsilk;
+}
+#img{
+    width:100%;
+}
+h3{
+    color:burlywood;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#grid{
+    background-color:azure;
+}
+.link{
+    display: inline;
+    padding-top:7px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 7px;
+    text-underline-position: none;
+}
+   .link:hover{
+       font-size: 22px;
+       
+}
+#myCarousel{
+    visibility: hidden;
+    display: none;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.img2{
+    height: 250px;
+    width:250px;
+}
+#home{
+    background-image: url("https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg");
+     height:  600px;
+    width:100%;
+}
+
+
+   
